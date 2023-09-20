@@ -1,19 +1,19 @@
 @font-face {
-  src: url('/fonts/SegoeUI-SemiBold.woff') format('woff');
+  src: url('./fonts/SegoeUI-SemiBold.woff') format('woff');
   font-family: 'Segoe UI SemiBold';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  src: url('/fonts/SegoeUI-Bold.woff') format('woff');
+  src: url('./fonts/SegoeUI-Bold.woff') format('woff');
   font-family: 'Segoe UI Bold';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  src: url('/fonts/SegoeUI.woff') format('woff');
+  src: url('./fonts/SegoeUI.woff') format('woff');
   font-family: 'Segoe UI Regular';
   font-weight: normal;
   font-style: normal;
@@ -184,7 +184,7 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   position: absolute;
   right: 0;
-  background: url('/assets/search.svg');
+  background: url('./assets/search.svg');
   border: none;
   width: 20px;
   height: 20px;
@@ -219,12 +219,12 @@ input::-webkit-inner-spin-button {
 }
 
 .header__itemIcon--profile {
-  background-image: url('/assets/profile.svg');
+  background-image: url('./assets/profile.svg');
   margin-left: 2px;
 }
 
 .header__itemIcon--shoppingCart {
-  background-image: url('/assets/shoppingСart.svg');
+  background-image: url('./assets/shoppingСart.svg');
   position: relative;
   margin-right: 6px;
 }
@@ -516,8 +516,8 @@ input::-webkit-inner-spin-button {
 }
 
 .btnIcon__like {
-  mask-image: url('/assets/like.svg');
-  -webkit-mask-image: url('/assets/like.svg');
+  mask-image: url('./assets/like.svg');
+  -webkit-mask-image: url('./assets/like.svg');
   background-color: var(--text-black);
 }
 
@@ -527,8 +527,8 @@ input::-webkit-inner-spin-button {
 }
 
 .btnIcon__delete {
-  mask-image: url('/assets/delete.svg');
-  -webkit-mask-image: url('/assets/delete.svg');
+  mask-image: url('./assets/delete.svg');
+  -webkit-mask-image: url('./assets/delete.svg');
   background-color: var(--text-black);
   margin-left: 13px;
 }
@@ -960,7 +960,7 @@ input::-webkit-inner-spin-button {
 }
 
 .delivery__switch {
-  background-image: url('/assets/btnChange.svg');
+  background-image: url('./assets/btnChange.svg');
   background-repeat: no-repeat;
   background-color: var(--system-white);
   width: 20px;
@@ -1016,7 +1016,7 @@ input::-webkit-inner-spin-button {
 }
 
 .payment__switch {
-  background-image: url('/assets/btnChange.svg');
+  background-image: url('./assets/btnChange.svg');
   background-repeat: no-repeat;
   background-color: var(--system-white);
   width: 20px;
@@ -1202,7 +1202,7 @@ input::-webkit-inner-spin-button {
 }
 
 .commons__Checkbox:checked + label::before {
-  background-image: url('/assets/checkbox.svg');
+  background-image: url('./assets/checkbox.svg');
   border: 1px solid var(--system-magenta);
 }
 
@@ -1250,7 +1250,7 @@ input::-webkit-inner-spin-button {
 }
 
 .main__popupSwitch {
-  background-image: url('/assets/btnClose.svg');
+  background-image: url('./assets/btnClose.svg');
   background-repeat: no-repeat;
   width: 24px;
   height: 24px;
@@ -1302,7 +1302,7 @@ input::-webkit-inner-spin-button {
 }
 
 .main__popupCheck:checked + .main__popupLabel::before {
-  background-image: url('/assets/checkRadio.svg');
+  background-image: url('./assets/checkRadio.svg');
   border: 1px solid var(--system-magenta);
 }
 
@@ -1499,7 +1499,7 @@ input::-webkit-inner-spin-button {
   .header__searchBtn--mobile {
     display: block;
     cursor: pointer;
-    background: url('/assets/search.svg');
+    background: url('./assets/search.svg');
     border: none;
     width: 21px;
     height: 21px;
@@ -1822,20 +1822,20 @@ input::-webkit-inner-spin-button {
     height: 28px;
   }
   .footerMobile__icon--main {
-    background-image: url('/assets/mainMobile.svg');
+    background-image: url('./assets/mainMobile.svg');
   }
   .footerMobile__icon--search {
-    background-image: url('/assets/searchMobile.svg');
+    background-image: url('./assets/searchMobile.svg');
   }
   .footerMobile__icon--cart {
-    background-image: url('/assets/cartMobile.svg');
+    background-image: url('./assets/cartMobile.svg');
     position: relative;
   }
   .footerMobile__icon--favorites {
-    background-image: url('/assets/favoritesMobile.svg');
+    background-image: url('./assets/favoritesMobile.svg');
   }
   .footerMobile__icon--profile {
-    background-image: url('/assets/profileMobile.svg');
+    background-image: url('./assets/profileMobile.svg');
   }
   .footerMobile__amountGoods {
     right: -9px;
